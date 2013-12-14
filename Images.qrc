@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>victoire.gif</file>
+        <file>suspens.wav</file>
+        <file>pierre1.png</file>
+        <file>pierre2.png</file>
+        <file>plateau.jpg</file>
+        <file>plateauHerbe.png</file>
+        <file>golf2.png</file>
+        <file>golf1.png</file>
+        <file>ring1.png</file>
+        <file>ring2.png</file>
+        <file>plateauNeon.png</file>
+        <file>victoire2.wav</file>
+        <file>hooo2.wav</file>
+        <file>yeees2.wav</file>
+        <file>mario1.png</file>
+        <file>mario2.png</file>
+        <file>plateau-mario.gif</file>
+        <file>plateau-mario.png</file>
+        <file>golfOk.wav</file>
+        <file>golfNon.wav</file>
+        <file>neonNon.wav</file>
+        <file>neonOk.wav</file>
+        <file>mario-fin.wav</file>
+        <file>marioNon.wav</file>
+        <file>marioOk.wav</file>
+        <file alias="craft">minecraft/plateau-craft.png</file>
+        <file alias="craft1">minecraft/craft1.png</file>
+        <file alias="craft2">minecraft/craft2.png</file>
+        <file>mordor.jpg</file>
+    </qresource>
+</RCC>

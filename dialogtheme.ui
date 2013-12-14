@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogTheme</class>
+ <widget class="QDialog" name="DialogTheme">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>368</width>
+    <height>565</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Choix du Theme</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:#333;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButtonThemeBois">
+       <property name="styleSheet">
+        <string notr="true">font: italic 20pt 'PMingLiU';
+background:#BBB</string>
+       </property>
+       <property name="text">
+        <string>     Bois</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Images.qrc">
+         <normaloff>:/Images/plateau.jpg</normaloff>:/Images/plateau.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>96</width>
+         <height>96</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonThemeHerbe">
+       <property name="styleSheet">
+        <string notr="true">font: italic 20pt 'PMingLiU';
+background:#BBB</string>
+       </property>
+       <property name="text">
+        <string>  Herbe</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Images.qrc">
+         <normaloff>:/Images/plateauHerbe.png</normaloff>:/Images/plateauHerbe.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>96</width>
+         <height>96</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonThemeNeon">
+       <property name="styleSheet">
+        <string notr="true">font: italic 20pt 'PMingLiU';
+background:#BBB</string>
+       </property>
+       <property name="text">
+        <string>   Neon</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Images.qrc">
+         <normaloff>:/Images/plateauNeon.png</normaloff>:/Images/plateauNeon.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>96</width>
+         <height>96</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonThemeMario">
+       <property name="styleSheet">
+        <string notr="true">font: italic 20pt 'PMingLiU';
+background:#BBB</string>
+       </property>
+       <property name="text">
+        <string>   Mario</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Images.qrc">
+         <normaloff>:/Images/plateau-mario.gif</normaloff>:/Images/plateau-mario.gif</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>96</width>
+         <height>96</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonThemeMinecraft">
+       <property name="styleSheet">
+        <string notr="true">font: italic 20pt 'PMingLiU';
+background:#BBB</string>
+       </property>
+       <property name="text">
+        <string>Minecraft</string>
+       </property>
+       <property name="icon">
+        <iconset resource="Images.qrc">
+         <normaloff>:/Images/craft</normaloff>:/Images/craft</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>96</width>
+         <height>96</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="Images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
